@@ -226,7 +226,7 @@ button{
     color: white;
 }
 
-@media (min-width:413px) and (max-width:600px){
+@media (min-width:360px) and (max-width:600px){
     .navbar{
         flex-direction: column;
         justify-content: center;
@@ -234,21 +234,23 @@ button{
     }
     h1{
         position: relative;
-        top: 11%;
-        right: 22%;
+        top: 25%;
+        right: 16%;
     
     }
-    .description>p,.description>h2,.description>button{
-        padding: 0 0 15px 0;
-        position: relative;
-        right: 35%;
+    .description>p{
+        font-size: 12px;
+    }
+    .description>h2{
+        font-size: 16px;
     }
     .description>button{
-        padding-top:15px;
+        width: 70px;
+        height: 40px;
     }
     .images{
-        height: 200px;
-        width: 300px;
+        height: 150px;
+        width: 200px;
     }
     .menu{
         width:100%;
@@ -270,6 +272,7 @@ button{
         display: block;
         position: absolute;
         left: 4%;
+        top: 62%;
         font-family: "roboto slab";
         cursor: pointer;
     }
@@ -284,10 +287,9 @@ button{
     }
     
     .img{
-        height: 250px;
-        width: 250px; 
-        position: relative;
-        right: 25%;   
+        height: 175px;
+        width: 175px; 
+           
     }
     .page1{
         position: relative;
@@ -295,18 +297,24 @@ button{
     .hero-section{
         position: absolute;
         top: 20%;
-        left: 15%;
+        left: 2%;
         gap: 0;
     }
     h2{
-        font-size: 20px;
+        font-size: 16px;
 
+    }
+    .sub-heading{
+        font-size: 18px;
     }
     .sp-content2 {
         flex-direction: column-reverse;
     }
     .sp-content1,.sp-content2,.sp-content3{
         gap:10px;
+    }
+     p{
+        font-size: 16px;
     }
     #page2 .sub-heading,#page2 p{
         padding-left: 20%;
@@ -315,8 +323,12 @@ button{
         position: relative;
         left: 6%;
     }
-    .partnership-style-box{
-        left: 18%;
+    .heading2{
+        position: relative;
+        right: 6%;
+    }
+    .partnership{
+        left: 4%;
     }
     .aboutus-container,.contactus-container{
         grid-template-rows: 0.5fr 1fr 2fr;
@@ -339,23 +351,33 @@ button{
         margin-left: 6%;
     }
     .contact-img{
-        height: 300px;
-        width: 300px;
+        height: 150px;
+        width: 200px;
         grid-area: 2/2/-3/3;
 
     }
     .contactus-h2{
-        padding-left: 20%;
+        padding-left: 10%;
     }
     .contactus-container{
         position: relative;
         right: 15%;
     }
+    .input-box{
+        width: 300px;
+        height: 40px;
+    }
+    .input-description{
+        height: 175px;
+        width:300px;
+    }
+    .label1{
+        font-size: 14px;
+    }
     .copyright{
         position: relative;
-        top: 25px;
-        
-        
+        top: 120px;
+        left: 8px;
     }
 
  
