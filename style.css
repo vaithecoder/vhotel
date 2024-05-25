@@ -1,0 +1,362 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: #A7A8CD;
+}
+body{
+    background-color: #333335;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    
+}
+.navbar{
+    width: 100%;
+    height: 25%;
+    display:flex;
+    gap: 50px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-family: "inria sans";
+    font-size: 26px;
+    padding-left: 30px;
+}
+h1{
+    font-family: "roboto slab";
+    flex-basis: 52%;
+    padding: 70px;
+}
+#toggle{
+    display: none;
+}
+.label-checkbox{
+    font-size: 30px;
+    padding-left: 15px;
+    display: none;
+}
+.hero-section{
+    width: 100%;
+    height:75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+h2{
+    font-family: "roboto slab";
+    font-size: 40px;
+    
+}
+p{
+    font-family: "inria sans";
+    font-size: 25px;
+}
+.img{
+    width:670.98px;
+    height: 396.84px;
+    border-radius: 30px;
+}
+.description{
+    flex-basis: 40%;
+}
+h2,p{
+    padding: 0px 50px 25px 0px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #A7A8CD;
+    color: black;
+    border: none;
+}
+.heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.sp-content1,.sp-content2,.sp-content3{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 125px;
+}
+.images{
+    width: 639px;
+    height: 329.59px;
+    border-radius: 40px;
+}
+.sub-heading{
+    font-family:"bree serif";
+    font-weight: 400;
+    padding-bottom: 40px;
+    font-size: 28px;
+}
+.partnership{
+    margin: 20px 0px 30px 0px;
+    width: 100%;
+    height: 150px;
+    background-color:#333335;
+    position: relative;
+}
+.partnership-style-box{
+    width: 60%;
+    height: 100px;
+    position: absolute;
+    left: 20%;
+}
+.partnership-content{
+    width: 100%;
+    height: 70px;
+    background-color: #A7A8CD;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{transition: 1s;}
+.sub-heading-partnership{
+    padding:0px 0px 5px 20px;
+    font-family:"bree serif";
+    font-weight: 400; 
+}
+.partnerships{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #333335;
+}
+.aboutus,.contactus{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-container,.contactus-container{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 4fr;
+    gap: 50px;
+}
+.heading2{
+    grid-column: span 2;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.style-p{
+    padding:75px 0 0 25px;
+}
+.verticalimg{
+    width:500px ;
+    height:425px ;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+.input-box{
+    width: 350px;
+    height: 40px;
+    border-radius: 40px;
+}
+.input-description{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+.input-box,.input-description{
+    background-color: #A7A8CD;
+    border-style: none;
+    margin-top: 20px;
+    color: white;
+}
+.details{
+    width: 400px;
+    height: 400px;
+    margin: 50px 0 0 100px;
+    position: relative;
+}
+.label1{
+    position: absolute;
+    top: 28px;
+    left: 25px;
+}
+.label1,.label2,.submit{
+    color: white;
+    font-family:"bree serif";
+    font-weight: 400;
+    font-size: 16px;
+}
+.label2{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    font-size: 18px;
+}
+.submit{
+    padding: 3px;
+    width: 100px;
+    height: 40px;
+    margin: 20px 0 0 0 ;
+    background-color: #A7A8CD;
+    border-radius: 40px;
+    border-style: none;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #757687;
+}
+.cpyh3{
+    font-family:"bree serif";
+    font-weight: 400; 
+    color: white;
+}
+
+@media (min-width:413px) and (max-width:600px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    h1{
+        position: relative;
+        top: 11%;
+        right: 22%;
+    
+    }
+    .description>p,.description>h2,.description>button{
+        padding: 0 0 15px 0;
+        position: relative;
+        right: 35%;
+    }
+    .description>button{
+        padding-top:15px;
+    }
+    .images{
+        height: 200px;
+        width: 300px;
+    }
+    .menu{
+        width:100%;
+        height: 200px;
+        position: relative;
+        bottom: 10%;
+        display: none;
+        z-index: 1;
+    }
+    .menu a{
+        display: block;
+        padding: 0 0 2px 30%;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+       
+        
+    }
+    .label-checkbox{
+        display: block;
+        position: absolute;
+        left: 4%;
+        font-family: "roboto slab";
+        cursor: pointer;
+    }
+    #toggle:checked+.label-checkbox{
+        top:20%
+    }
+    #toggle:checked ~ .menu {
+        display: block;
+    }
+    #toggle{
+        display: none;
+    }
+    
+    .img{
+        height: 250px;
+        width: 250px; 
+        position: relative;
+        right: 25%;   
+    }
+    .page1{
+        position: relative;
+    }
+    .hero-section{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        gap: 0;
+    }
+    h2{
+        font-size: 20px;
+
+    }
+    .sp-content2 {
+        flex-direction: column-reverse;
+    }
+    .sp-content1,.sp-content2,.sp-content3{
+        gap:10px;
+    }
+    #page2 .sub-heading,#page2 p{
+        padding-left: 20%;
+    }
+    .heading{
+        position: relative;
+        left: 6%;
+    }
+    .partnership-style-box{
+        left: 18%;
+    }
+    .aboutus-container,.contactus-container{
+        grid-template-rows: 0.5fr 1fr 2fr;
+        grid-template-columns: 4fr;
+       
+    }
+    .aboutus-img,.contact-img{
+       
+        grid-column: span 2;
+    }
+    .aboutus-container{
+        position: relative;
+        left: 10%;
+    }
+    .style-p{
+        padding: 10px 0 0 0;
+    }
+    .details{
+        grid-area: 3/3/3/-1;
+        margin-left: 6%;
+    }
+    .contact-img{
+        height: 300px;
+        width: 300px;
+        grid-area: 2/2/-3/3;
+
+    }
+    .contactus-h2{
+        padding-left: 20%;
+    }
+    .contactus-container{
+        position: relative;
+        right: 15%;
+    }
+    .copyright{
+        position: relative;
+        top: 25px;
+        
+        
+    }
+
+ 
+}
